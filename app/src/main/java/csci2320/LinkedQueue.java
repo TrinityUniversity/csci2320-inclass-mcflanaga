@@ -1,7 +1,5 @@
 package csci2320;
 
-import com.google.errorprone.annotations.OverridingMethodsMustInvokeSuper;
-
 public class LinkedQueue<E> implements Queue<E>{
     private static class Node<E> {
         E data;
